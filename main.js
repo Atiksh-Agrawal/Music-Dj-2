@@ -6,7 +6,7 @@ peter_pan = loadSound("music2.mp3");
 
 function setup(){
     canvas = createCanvas(400,400);
-    canvas.position(400,600);
+    canvas.position(825,400);
     video = createCapture(VIDEO);
     video.hide();
 }
