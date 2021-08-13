@@ -1,12 +1,12 @@
 song = "";
 function preload(){
 harry_potter = loadSound("music.mp3");
-peter_pan = loadSound("peter_pan.mp3");
+peter_pan = loadSound("music2.mp3");
 }
 
 function setup(){
-    canvas = createCanvas(600,500);
-    canvas.position(700,200);
+    canvas = createCanvas(400,400);
+    canvas.position(400,600);
     video = createCapture(VIDEO);
     video.hide();
 }
@@ -27,6 +27,8 @@ function playMusic(){
     
         harry_potter.play();
         }
+
+        
 
 }
 
